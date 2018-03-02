@@ -1,5 +1,6 @@
 # Docker_DotNetCore
 POC pour executer du code .NET CORE dans un container docker.
+
 Graceful stop : le container s'arrête proprement (finit le job en cours) quand il reçoit un signal
 
 # Pré requis
@@ -7,8 +8,7 @@ Docker & .NET CORE Sdk
 
 # Run local
 ## Run
-Terminal
-go in MyApp folder
+Open terminal and go in MyApp folder
 ```
 dotnet run
 ```

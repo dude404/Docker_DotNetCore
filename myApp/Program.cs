@@ -10,12 +10,9 @@ namespace System.Runtime.Loader
   }
     class Program
     {
-
-
       private static void unloadTask(AssemblyLoadContext obj)
       {
           runner.i=1;
-
           Console.WriteLine("Kill signal received");
           System.Threading.Thread.Sleep(800);
           Console.WriteLine("Oh wait I have a task to finish...");
@@ -29,27 +26,18 @@ namespace System.Runtime.Loader
           Console.WriteLine("100%");
           System.Threading.Thread.Sleep(800);
           Console.WriteLine("Exiting now");
-
       }
-
 
         static void Main(string[] args)
         {
-
             AssemblyLoadContext.Default.Unloading += unloadTask;
-
             while(true && runner.i==0)
             {
               Console.WriteLine("******");
-              Console.WriteLine("Hello Jonathan, this is a .NET CORE running app!");
+              Console.WriteLine("Hello this is a .NET CORE running app!");
               Console.WriteLine("******");
                 System.Threading.Thread.Sleep(1000);
             }
-
-
-
-
-
         }
     }
 }
