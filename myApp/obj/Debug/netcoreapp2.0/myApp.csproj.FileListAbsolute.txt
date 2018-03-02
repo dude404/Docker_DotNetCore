@@ -1,0 +1,10 @@
+/Users/apple/Developpement/DOTNET/myApp/bin/Debug/netcoreapp2.0/myApp.deps.json
+/Users/apple/Developpement/DOTNET/myApp/bin/Debug/netcoreapp2.0/myApp.runtimeconfig.json
+/Users/apple/Developpement/DOTNET/myApp/bin/Debug/netcoreapp2.0/myApp.runtimeconfig.dev.json
+/Users/apple/Developpement/DOTNET/myApp/bin/Debug/netcoreapp2.0/myApp.dll
+/Users/apple/Developpement/DOTNET/myApp/bin/Debug/netcoreapp2.0/myApp.pdb
+/Users/apple/Developpement/DOTNET/myApp/obj/Debug/netcoreapp2.0/myApp.csproj.CoreCompileInputs.cache
+/Users/apple/Developpement/DOTNET/myApp/obj/Debug/netcoreapp2.0/myApp.AssemblyInfoInputs.cache
+/Users/apple/Developpement/DOTNET/myApp/obj/Debug/netcoreapp2.0/myApp.AssemblyInfo.cs
+/Users/apple/Developpement/DOTNET/myApp/obj/Debug/netcoreapp2.0/myApp.dll
+/Users/apple/Developpement/DOTNET/myApp/obj/Debug/netcoreapp2.0/myApp.pdb
