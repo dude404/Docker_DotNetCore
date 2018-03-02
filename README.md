@@ -6,12 +6,13 @@ Graceful stop : le container s'arrête proprement (finit le job en cours) quand 
 Docker & .NET CORE Sdk
 
 # Run local
+## Run
 Terminal
 go in MyApp folder
 ```
 dotnet run
 ```
-
+## Stop
 On another terminal
 ```
 kill [PROCESS ID]
@@ -19,16 +20,15 @@ kill [PROCESS ID]
 -> observe graceful stop
 
 # Run via Docker
-
-## Build
+## Build Container
 ```
 docker build -t dotnetapp-dev .
 ```
-
 ## Run
 ```
 docker run dotnetapp-dev
 ```
+## Stop
 On another terminal
 ```
 docker stop [CONTAINER ID]
